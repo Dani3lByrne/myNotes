@@ -246,13 +246,15 @@ span {
         .nav {
             display: grid;
             width: 100vw;
-            height: 12vh;
-            align-items: center;
-            padding: ;
+            height: max(130px,15vh);
+            min-height: 130px;
+             
+    
             
         }
+
         .header {
-            height: 88vh;
+            height: 85vh;
             padding-bottom: 4rem;
             padding-top: 3rem;
         }
@@ -260,7 +262,7 @@ span {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             align-items: center;
-            column-gap: 2rem;
+            justify-items: center;
         }
         .articles {
             grid-template-columns: repeat(2, 1fr);
